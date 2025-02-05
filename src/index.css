@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-notion-bg text-notion-text font-inter text-sm;
+}
+
+.table-container {
+  @apply border border-notion-border rounded-lg overflow-hidden;
+}
+
+.notion-button {
+  @apply bg-notion-blue text-white px-3 py-1.5 rounded hover:bg-opacity-90 flex items-center gap-1.5 text-sm;
+}
